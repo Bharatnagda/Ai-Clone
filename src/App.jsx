@@ -23,7 +23,7 @@ function App() {
     dataString = dataString.split("* ")
     dataString = dataString.map((item) => item.trim())
     console.log(dataString);
-
+ 
     setResult([...result, { type: 'q', text: ques }, { type: 'a', text: dataString }]);
   }
   console.log(result);
